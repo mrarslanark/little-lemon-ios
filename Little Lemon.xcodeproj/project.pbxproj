@@ -7,18 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E963FF2329BE1A9A002ED5DA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963FF2229BE1A9A002ED5DA /* Search.swift */; };
+		E963FF4729BE8BE0002ED5DA /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963FF4629BE8BE0002ED5DA /* EditProfile.swift */; };
+		E964343C29BB43F2000377B4 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E964343A29BB43F2000377B4 /* FetchedObjects.swift */; };
+		E964343D29BB43F2000377B4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E964343B29BB43F2000377B4 /* Persistence.swift */; };
+		E964344029BB4A86000377B4 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E964343F29BB4A86000377B4 /* MenuList.swift */; };
+		E964344229BB4ABC000377B4 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E964344129BB4ABC000377B4 /* MenuItem.swift */; };
+		E968831829B2F556001717D8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968831729B2F556001717D8 /* Utils.swift */; };
+		E968831A29B2FFC9001717D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968831929B2FFC9001717D8 /* Home.swift */; };
+		E968831D29B3188C001717D8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968831C29B3188C001717D8 /* Menu.swift */; };
+		E968831F29B318C7001717D8 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968831E29B318C7001717D8 /* UserProfile.swift */; };
+		E968832229B31959001717D8 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968832129B31959001717D8 /* NavigationBar.swift */; };
+		E9ACB34829BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9ACB34629BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodeld */; };
+		E9ACB34A29BC834E00D9F3B5 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ACB34929BC834E00D9F3B5 /* ItemDetail.swift */; };
 		E9D1C20929AEFEF50065A432 /* Little_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1C20829AEFEF50065A432 /* Little_LemonApp.swift */; };
-		E9D1C20B29AEFEF50065A432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1C20A29AEFEF50065A432 /* ContentView.swift */; };
+		E9D1C20B29AEFEF50065A432 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1C20A29AEFEF50065A432 /* Registration.swift */; };
 		E9D1C20D29AEFEF70065A432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D1C20C29AEFEF70065A432 /* Assets.xcassets */; };
 		E9D1C21029AEFEF70065A432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D1C20F29AEFEF70065A432 /* Preview Assets.xcassets */; };
+		E9EC1DDF29B2044A00F695E8 /* MarkaziText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DDB29B2044A00F695E8 /* MarkaziText-SemiBold.ttf */; };
+		E9EC1DE029B2044A00F695E8 /* MarkaziText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DDC29B2044A00F695E8 /* MarkaziText-Bold.ttf */; };
+		E9EC1DE129B2044A00F695E8 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DDD29B2044A00F695E8 /* MarkaziText-Medium.ttf */; };
+		E9EC1DE229B2044A00F695E8 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DDE29B2044A00F695E8 /* MarkaziText-Regular.ttf */; };
+		E9EC1DF429B20E4100F695E8 /* Karla-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DE629B20E3F00F695E8 /* Karla-ExtraLight.ttf */; };
+		E9EC1DF529B20E4100F695E8 /* Karla-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DE729B20E3F00F695E8 /* Karla-ExtraLightItalic.ttf */; };
+		E9EC1DF629B20E4100F695E8 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DE829B20E3F00F695E8 /* Karla-BoldItalic.ttf */; };
+		E9EC1DF729B20E4100F695E8 /* Karla-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DE929B20E3F00F695E8 /* Karla-ExtraBoldItalic.ttf */; };
+		E9EC1DF829B20E4100F695E8 /* Karla-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DEA29B20E3F00F695E8 /* Karla-Light.ttf */; };
+		E9EC1DF929B20E4100F695E8 /* Karla-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DEB29B20E4000F695E8 /* Karla-SemiBold.ttf */; };
+		E9EC1DFA29B20E4100F695E8 /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DEC29B20E4000F695E8 /* Karla-ExtraBold.ttf */; };
+		E9EC1DFB29B20E4100F695E8 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DED29B20E4000F695E8 /* Karla-Bold.ttf */; };
+		E9EC1DFC29B20E4100F695E8 /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DEE29B20E4000F695E8 /* Karla-Medium.ttf */; };
+		E9EC1DFD29B20E4100F695E8 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DEF29B20E4000F695E8 /* Karla-Regular.ttf */; };
+		E9EC1DFE29B20E4100F695E8 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DF029B20E4100F695E8 /* Karla-Italic.ttf */; };
+		E9EC1DFF29B20E4100F695E8 /* Karla-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DF129B20E4100F695E8 /* Karla-LightItalic.ttf */; };
+		E9EC1E0029B20E4100F695E8 /* Karla-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DF229B20E4100F695E8 /* Karla-MediumItalic.ttf */; };
+		E9EC1E0129B20E4100F695E8 /* Karla-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9EC1DF329B20E4100F695E8 /* Karla-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E963FF2229BE1A9A002ED5DA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		E963FF4629BE8BE0002ED5DA /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		E964343A29BB43F2000377B4 /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		E964343B29BB43F2000377B4 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E964343F29BB4A86000377B4 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		E964344129BB4ABC000377B4 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		E968831729B2F556001717D8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E968831929B2FFC9001717D8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E968831C29B3188C001717D8 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E968831E29B318C7001717D8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		E968832129B31959001717D8 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		E9ACB34729BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+		E9ACB34929BC834E00D9F3B5 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		E9D1C20529AEFEF50065A432 /* Little Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D1C20829AEFEF50065A432 /* Little_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_LemonApp.swift; sourceTree = "<group>"; };
-		E9D1C20A29AEFEF50065A432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9D1C20A29AEFEF50065A432 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		E9D1C20C29AEFEF70065A432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D1C20F29AEFEF70065A432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9EC1DDB29B2044A00F695E8 /* MarkaziText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-SemiBold.ttf"; sourceTree = "<group>"; };
+		E9EC1DDC29B2044A00F695E8 /* MarkaziText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Bold.ttf"; sourceTree = "<group>"; };
+		E9EC1DDD29B2044A00F695E8 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		E9EC1DDE29B2044A00F695E8 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
+		E9EC1DE329B2048C00F695E8 /* Little-Lemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Little-Lemon-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E9EC1DE629B20E3F00F695E8 /* Karla-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E9EC1DE729B20E3F00F695E8 /* Karla-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E9EC1DE829B20E3F00F695E8 /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E9EC1DE929B20E3F00F695E8 /* Karla-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E9EC1DEA29B20E3F00F695E8 /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
+		E9EC1DEB29B20E4000F695E8 /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		E9EC1DEC29B20E4000F695E8 /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E9EC1DED29B20E4000F695E8 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		E9EC1DEE29B20E4000F695E8 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		E9EC1DEF29B20E4000F695E8 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		E9EC1DF029B20E4100F695E8 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		E9EC1DF129B20E4100F695E8 /* Karla-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-LightItalic.ttf"; sourceTree = "<group>"; };
+		E9EC1DF229B20E4100F695E8 /* Karla-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E9EC1DF329B20E4100F695E8 /* Karla-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +95,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E964343E29BB4A78000377B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E964343F29BB4A86000377B4 /* MenuList.swift */,
+				E964344129BB4ABC000377B4 /* MenuItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E968831B29B3185D001717D8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1C20A29AEFEF50065A432 /* Registration.swift */,
+				E968831929B2FFC9001717D8 /* Home.swift */,
+				E968831C29B3188C001717D8 /* Menu.swift */,
+				E968831E29B318C7001717D8 /* UserProfile.swift */,
+				E9ACB34929BC834E00D9F3B5 /* ItemDetail.swift */,
+				E963FF2229BE1A9A002ED5DA /* Search.swift */,
+				E963FF4629BE8BE0002ED5DA /* EditProfile.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E968832029B31949001717D8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E968832129B31959001717D8 /* NavigationBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		E9D1C1FC29AEFEF50065A432 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +145,18 @@
 		E9D1C20729AEFEF50065A432 /* Little Lemon */ = {
 			isa = PBXGroup;
 			children = (
+				E964343E29BB4A78000377B4 /* Models */,
+				E964343A29BB43F2000377B4 /* FetchedObjects.swift */,
+				E964343B29BB43F2000377B4 /* Persistence.swift */,
+				E968832029B31949001717D8 /* Components */,
+				E968831B29B3185D001717D8 /* Screens */,
+				E9EC1DE329B2048C00F695E8 /* Little-Lemon-Info.plist */,
+				E9EC1DDA29B203EB00F695E8 /* Fonts */,
 				E9D1C20829AEFEF50065A432 /* Little_LemonApp.swift */,
-				E9D1C20A29AEFEF50065A432 /* ContentView.swift */,
 				E9D1C20C29AEFEF70065A432 /* Assets.xcassets */,
 				E9D1C20E29AEFEF70065A432 /* Preview Content */,
+				E968831729B2F556001717D8 /* Utils.swift */,
+				E9ACB34629BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodeld */,
 			);
 			path = "Little Lemon";
 			sourceTree = "<group>";
@@ -65,6 +167,47 @@
 				E9D1C20F29AEFEF70065A432 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9EC1DDA29B203EB00F695E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC1DE529B20E1400F695E8 /* Markazi */,
+				E9EC1DE429B20E0C00F695E8 /* Karla */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E9EC1DE429B20E0C00F695E8 /* Karla */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC1DED29B20E4000F695E8 /* Karla-Bold.ttf */,
+				E9EC1DE829B20E3F00F695E8 /* Karla-BoldItalic.ttf */,
+				E9EC1DEC29B20E4000F695E8 /* Karla-ExtraBold.ttf */,
+				E9EC1DE929B20E3F00F695E8 /* Karla-ExtraBoldItalic.ttf */,
+				E9EC1DE629B20E3F00F695E8 /* Karla-ExtraLight.ttf */,
+				E9EC1DE729B20E3F00F695E8 /* Karla-ExtraLightItalic.ttf */,
+				E9EC1DF029B20E4100F695E8 /* Karla-Italic.ttf */,
+				E9EC1DEA29B20E3F00F695E8 /* Karla-Light.ttf */,
+				E9EC1DF129B20E4100F695E8 /* Karla-LightItalic.ttf */,
+				E9EC1DEE29B20E4000F695E8 /* Karla-Medium.ttf */,
+				E9EC1DF229B20E4100F695E8 /* Karla-MediumItalic.ttf */,
+				E9EC1DEF29B20E4000F695E8 /* Karla-Regular.ttf */,
+				E9EC1DEB29B20E4000F695E8 /* Karla-SemiBold.ttf */,
+				E9EC1DF329B20E4100F695E8 /* Karla-SemiBoldItalic.ttf */,
+			);
+			path = Karla;
+			sourceTree = "<group>";
+		};
+		E9EC1DE529B20E1400F695E8 /* Markazi */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC1DDC29B2044A00F695E8 /* MarkaziText-Bold.ttf */,
+				E9EC1DDD29B2044A00F695E8 /* MarkaziText-Medium.ttf */,
+				E9EC1DDE29B2044A00F695E8 /* MarkaziText-Regular.ttf */,
+				E9EC1DDB29B2044A00F695E8 /* MarkaziText-SemiBold.ttf */,
+			);
+			path = Markazi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +268,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EC1DF729B20E4100F695E8 /* Karla-ExtraBoldItalic.ttf in Resources */,
+				E9EC1DFC29B20E4100F695E8 /* Karla-Medium.ttf in Resources */,
+				E9EC1DF529B20E4100F695E8 /* Karla-ExtraLightItalic.ttf in Resources */,
+				E9EC1DFF29B20E4100F695E8 /* Karla-LightItalic.ttf in Resources */,
+				E9EC1DDF29B2044A00F695E8 /* MarkaziText-SemiBold.ttf in Resources */,
+				E9EC1DFB29B20E4100F695E8 /* Karla-Bold.ttf in Resources */,
+				E9EC1DE129B2044A00F695E8 /* MarkaziText-Medium.ttf in Resources */,
 				E9D1C21029AEFEF70065A432 /* Preview Assets.xcassets in Resources */,
+				E9EC1DFD29B20E4100F695E8 /* Karla-Regular.ttf in Resources */,
+				E9EC1E0129B20E4100F695E8 /* Karla-SemiBoldItalic.ttf in Resources */,
+				E9EC1DF429B20E4100F695E8 /* Karla-ExtraLight.ttf in Resources */,
+				E9EC1DF829B20E4100F695E8 /* Karla-Light.ttf in Resources */,
+				E9EC1DE029B2044A00F695E8 /* MarkaziText-Bold.ttf in Resources */,
+				E9EC1E0029B20E4100F695E8 /* Karla-MediumItalic.ttf in Resources */,
+				E9EC1DFE29B20E4100F695E8 /* Karla-Italic.ttf in Resources */,
+				E9EC1DE229B2044A00F695E8 /* MarkaziText-Regular.ttf in Resources */,
+				E9EC1DF929B20E4100F695E8 /* Karla-SemiBold.ttf in Resources */,
 				E9D1C20D29AEFEF70065A432 /* Assets.xcassets in Resources */,
+				E9EC1DFA29B20E4100F695E8 /* Karla-ExtraBold.ttf in Resources */,
+				E9EC1DF629B20E4100F695E8 /* Karla-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +298,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D1C20B29AEFEF50065A432 /* ContentView.swift in Sources */,
+				E964343D29BB43F2000377B4 /* Persistence.swift in Sources */,
+				E9D1C20B29AEFEF50065A432 /* Registration.swift in Sources */,
+				E968831F29B318C7001717D8 /* UserProfile.swift in Sources */,
 				E9D1C20929AEFEF50065A432 /* Little_LemonApp.swift in Sources */,
+				E968831A29B2FFC9001717D8 /* Home.swift in Sources */,
+				E9ACB34A29BC834E00D9F3B5 /* ItemDetail.swift in Sources */,
+				E964343C29BB43F2000377B4 /* FetchedObjects.swift in Sources */,
+				E968832229B31959001717D8 /* NavigationBar.swift in Sources */,
+				E963FF4729BE8BE0002ED5DA /* EditProfile.swift in Sources */,
+				E968831829B2F556001717D8 /* Utils.swift in Sources */,
+				E964344229BB4ABC000377B4 /* MenuItem.swift in Sources */,
+				E9ACB34829BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodeld in Sources */,
+				E964344029BB4A86000377B4 /* MenuList.swift in Sources */,
+				E968831D29B3188C001717D8 /* Menu.swift in Sources */,
+				E963FF2329BE1A9A002ED5DA /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +444,7 @@
 				DEVELOPMENT_TEAM = C2XG38W77G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +474,7 @@
 				DEVELOPMENT_TEAM = C2XG38W77G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +515,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9ACB34629BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9ACB34729BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = E9ACB34729BC6BCF00D9F3B5 /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E9D1C1FD29AEFEF50065A432 /* Project object */;
 }
